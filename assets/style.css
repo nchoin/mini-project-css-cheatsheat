@@ -1,3 +1,18 @@
 :root {
-        
+    --box: linear-gradient(#8155BA, #c55ffc);
+    --background:rgb(2, 2, 22);
+    --titletext:rgb(244, 246, 240);
+    --boxtitle: magenta;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+}
+h1 {
+color: var(--boxtitle);
+text-align: center;
+}
+p { 
+    color: var(--titletext);
 }
